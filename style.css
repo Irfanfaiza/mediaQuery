@@ -1,0 +1,84 @@
+.events{
+    display: flex;
+   
+    border: 2px solid black;
+    height: 450px;
+    flex-wrap: nowrap;
+    width:100%;
+    
+}
+section{
+    border: 100px solid black; ;
+}
+/* .section{
+    width: 80%;
+    margin: 80px auto;
+
+} */
+/* .section h1{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+padding-top:10px ;
+font-size: 5vmin;
+} */
+/* .title{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3vmin;
+    color: black;
+} */
+
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.col{
+    background-color: bisque;
+    margin: 10px;
+    width: 100%;
+    padding: 10px;
+flex-wrap:wrap ;
+
+}
+.col img{
+    width: 230px;
+}
+/* .row .col{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.events .row{
+margin-top: 50px;
+}
+.row .col img{
+    width: 250px;
+    height: auto;
+
+}
+
+.col p{
+    text-align: center;
+    line-height: 20px;
+    font-family: 'Lucida Sans';
+    padding: 0px 40px;
+}
+.col h2{
+font-size: 4vmin;
+} */
+@media only screen and (max-width:750px){
+    .col{
+        flex-direction: row;
+        width: 100%;
+        padding: 30px 0px;
+    }
+    
+}
